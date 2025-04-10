@@ -1,0 +1,37 @@
+{
+  "name": "langchain-llm7",
+  "version": "2025.04.101541",
+  "description": "LangChain integration for the LLM7 Chat API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chigwell/npm-langchain-llm7.git"
+  },
+  "keywords": [
+    "langchain",
+    "llm",
+    "ai",
+    "llm7"
+  ],
+  "author": "Eugene Evstafev <chigwel@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@langchain/core": "^0.1.0",
+    "axios": "^1.6.0",
+    "axios-retry": "^4.0.0",
+    "gpt-3-encoder": "^1.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
