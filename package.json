@@ -1,12 +1,21 @@
 {
   "name": "langchain-llm7",
-  "version": "2025.04.101541",
+  "version": "2025.04.101555",
   "description": "LangChain integration for the LLM7 Chat API",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
