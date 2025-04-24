@@ -90,7 +90,6 @@ All standard `BaseChatModelParams` like `callbacks`, `verbose`, etc., are also a
 
 ## Development
 
-(Optional: Add instructions for contributors on how to build, test, lint, etc.)
 
 1.  Clone the repository: `git clone https://github.com/chigwell/npm-langchain-llm7.git`
 2.  Install dependencies: `cd npm-langchain-llm7 && npm install`
