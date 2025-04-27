@@ -52,7 +52,7 @@ export class ChatLLM7 extends SimpleChatModel implements ChatLLM7Params {
     constructor(fields: ChatLLM7Params = {}) {
         super(fields);
         this.baseUrl = fields.baseUrl ?? "https://api.llm7.io/v1";
-        this.modelName = fields.modelName ?? "gpt-4o-mini-2024-07-18";
+        this.modelName = fields.modelName ?? "gpt-4.1-nano";
         this.temperature = fields.temperature ?? 1.0;
         this.maxTokens = fields.maxTokens;
         this.timeout = fields.timeout ?? 120;

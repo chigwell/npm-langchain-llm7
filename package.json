@@ -1,6 +1,6 @@
 {
   "name": "langchain-llm7",
-  "version": "2025.04.101555",
+  "version": "2025.04.272201",
   "description": "LangChain integration for the LLM7 Chat API",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
