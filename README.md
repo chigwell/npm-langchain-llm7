@@ -33,7 +33,7 @@ import { HumanMessage, SystemMessage } from "@langchain/core/messages";
 
 // Initialize the model (defaults or provide specific options)
 const chat = new ChatLLM7({
-  // modelName: "gpt-4o-mini-2024-07-18", // Default
+  // modelName: "gpt-4.1-nano", // Default
   // temperature: 0.8,
   // maxTokens: 150,
 });
@@ -79,7 +79,7 @@ You can configure the `ChatLLM7` model by passing parameters to its constructor:
 | Parameter    | Type         | Default                      | Description                                                                 |
 |--------------|--------------|------------------------------|-----------------------------------------------------------------------------|
 | `baseUrl`    | `string`     | `"https://api.llm7.io/v1"`   | Base URL for the LLM7 API.                                                  |
-| `modelName`  | `string`     | `"gpt-4o-mini-2024-07-18"` | The specific LLM7 model to use.                                               |
+| `modelName`  | `string`     | `"gpt-4.1-nano"` | The specific LLM7 model to use.                                               |
 | `temperature`| `number`     | `1.0`                        | Sampling temperature (usually between 0 and 2). Higher values mean more randomness. |
 | `maxTokens`  | `number`     | `undefined`                  | Maximum number of tokens to generate in the completion.                     |
 | `timeout`    | `number`     | `120`                        | Request timeout in seconds.                                                 |
